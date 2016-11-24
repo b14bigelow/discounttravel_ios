@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  discounttravel_ios
 //
 //  Created by yuriy sych on 11/24/16.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface DetailViewController : UIViewController
 
 @end
-

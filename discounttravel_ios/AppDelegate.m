@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Reachability.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,44 @@
 
 @implementation AppDelegate
 
+AppDelegate* getAppDelegate(){
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
++(BOOL)checkNetworkStatus {
+    Reachability *internetReachable = [Reachability reachabilityForInternetConnection];
+    NetworkStatus internetStatus = [internetReachable currentReachabilityStatus];
+    return internetStatus == ReachableViaWiFi || internetStatus == ReachableViaWWAN;
+}
+
++ (void)registerDefaults{
+    NSString *settingsBundle = [[NSBundle mainBundle] pathForResource:@"Settings" ofType:@"bundle"];     if(!settingsBundle) {
+        NSLog(@"Could not find Settings.bundle");
+        return;
+    }
+    NSDictionary *settings = [NSDictionary dictionaryWithContentsOfFile:[settingsBundle stringByAppendingPathComponent:@"Root.plist"]];
+    NSArray *preferences = [settings objectForKey:@"PreferenceSpecifiers"];
+    NSMutableDictionary *defaultsToRegister = [[NSMutableDictionary alloc] initWithCapacity:[preferences count]];
+    for(NSDictionary *prefSpecification in preferences) {
+        NSString *key = [prefSpecification objectForKey:@"Key"];
+        if(key) {
+            [defaultsToRegister setObject:[prefSpecification objectForKey:@"DefaultValue"] forKey:key];
+            NSLog(@"writing as default %@ to the key %@", [prefSpecification objectForKey:@"DefaultValue"], key);
+        }
+    }
+    [[NSUserDefaults standardUserDefaults] registerDefaults:defaultsToRegister];
+}
+
+- (void)showError:(NSString *)error{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"error", nil) message:error preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {}];
+    [alert addAction:defaultAction];
+    [self.window.rootViewController presentViewController:alert animated:YES completion:nil];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _model = [[Model alloc] init];
     return YES;
 }
 

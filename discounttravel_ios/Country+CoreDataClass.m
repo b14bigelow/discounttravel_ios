@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  Country+CoreDataClass.m
 //  discounttravel_ios
 //
 //  Created by yuriy sych on 11/24/16.
 //  Copyright © 2016 yuriy sych. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Country+CoreDataClass.h"
 
-@interface ViewController : UIViewController
-
-
+@implementation Country
 
 @end
-
