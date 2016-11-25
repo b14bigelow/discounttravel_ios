@@ -1,8 +1,8 @@
 //
-//  Country+CoreDataClass.h
+//  Category+CoreDataClass.h
 //  discounttravel_ios
 //
-//  Created by yuriy sych on 11/24/16.
+//  Created by yuriy sych on 11/25/16.
 //  Copyright © 2016 yuriy sych. All rights reserved.
 //
 
@@ -11,10 +11,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Country : NSManagedObject
+@interface Category : NSManagedObject
 
 @end
 
 NS_ASSUME_NONNULL_END
 
-#import "Country+CoreDataProperties.h"
+#import "Category+CoreDataProperties.h"

@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@protocol ModelDelegate
+- (void)dataUpdated;
+@end
 @interface Model : NSObject
-@property (nonatomic, strong) NSMutableArray* toursList;
+@property (nonatomic, strong) NSArray* toursList;
+@property (nonatomic, strong) NSArray* countriesList;
+- (void)setDelegate:(id<ModelDelegate>)delegate;
+- (void)removeDelegate:(id<ModelDelegate>)delegate;
 @end

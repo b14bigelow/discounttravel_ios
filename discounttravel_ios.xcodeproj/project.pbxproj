@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B7F20B81DE6F495001ABF60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20B71DE6F495001ABF60 /* main.m */; };
-		4B7F20BB1DE6F495001ABF60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20BA1DE6F495001ABF60 /* AppDelegate.m */; };
-		4B7F20BE1DE6F495001ABF60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20BD1DE6F495001ABF60 /* ViewController.m */; };
 		4B7F20C11DE6F495001ABF60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7F20BF1DE6F495001ABF60 /* Main.storyboard */; };
-		4B7F20C41DE6F495001ABF60 /* discounttravel_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20C21DE6F495001ABF60 /* discounttravel_ios.xcdatamodeld */; };
 		4B7F20C61DE6F495001ABF60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7F20C51DE6F495001ABF60 /* Assets.xcassets */; };
 		4B7F20C91DE6F495001ABF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7F20C71DE6F495001ABF60 /* LaunchScreen.storyboard */; };
-		4B7F20D21DE6F68B001ABF60 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20D11DE6F68B001ABF60 /* Model.m */; };
-		4B7F20D51DE6F768001ABF60 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20D41DE6F768001ABF60 /* Reachability.m */; };
-		4B7F20D81DE6F8CF001ABF60 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20D71DE6F8CF001ABF60 /* NetworkManager.m */; };
-		4B7F20DE1DE6F977001ABF60 /* ToursListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20DD1DE6F977001ABF60 /* ToursListViewController.m */; };
-		4B7F20E81DE718AC001ABF60 /* Country+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20E11DE718AC001ABF60 /* Country+CoreDataClass.m */; };
-		4B7F20E91DE718AC001ABF60 /* Country+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20E31DE718AC001ABF60 /* Country+CoreDataProperties.m */; };
-		4B7F20EA1DE718AC001ABF60 /* Tour+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20E51DE718AC001ABF60 /* Tour+CoreDataClass.m */; };
-		4B7F20EB1DE718AC001ABF60 /* Tour+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20E71DE718AC001ABF60 /* Tour+CoreDataProperties.m */; };
 		4B7F20EE1DE71BE6001ABF60 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7F20ED1DE71BE6001ABF60 /* SystemConfiguration.framework */; };
-		4B7F20F11DE71D74001ABF60 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20F01DE71D74001ABF60 /* SWRevealViewController.m */; };
-		4B7F20F41DE7357F001ABF60 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20F31DE7357F001ABF60 /* DetailViewController.m */; };
+		4BFC88EC1DE8A804004DB72E /* Category+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC88E61DE8A761004DB72E /* Category+CoreDataClass.m */; };
+		4BFC88ED1DE8A804004DB72E /* Category+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC88E81DE8A761004DB72E /* Category+CoreDataProperties.m */; };
+		4BFC88EE1DE8A804004DB72E /* Version+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B860AFA1DE874BE0031E23F /* Version+CoreDataClass.m */; };
+		4BFC88EF1DE8A804004DB72E /* Version+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B860AFC1DE874BE0031E23F /* Version+CoreDataProperties.m */; };
+		4BFC88F01DE8A804004DB72E /* Tour+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B860AFE1DE874BE0031E23F /* Tour+CoreDataClass.m */; };
+		4BFC88F11DE8A804004DB72E /* Tour+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B860B001DE874BE0031E23F /* Tour+CoreDataProperties.m */; };
+		4BFC88F21DE8A804004DB72E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20BA1DE6F495001ABF60 /* AppDelegate.m */; };
+		4BFC88F31DE8A804004DB72E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20D11DE6F68B001ABF60 /* Model.m */; };
+		4BFC88F41DE8A804004DB72E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20D41DE6F768001ABF60 /* Reachability.m */; };
+		4BFC88F51DE8A804004DB72E /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20D71DE6F8CF001ABF60 /* NetworkManager.m */; };
+		4BFC88F61DE8A804004DB72E /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B860ACB1DE846970031E23F /* GradientView.m */; };
+		4BFC88F71DE8A804004DB72E /* ToursListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20DD1DE6F977001ABF60 /* ToursListViewController.m */; };
+		4BFC88F81DE8A804004DB72E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20F31DE7357F001ABF60 /* DetailViewController.m */; };
+		4BFC88F91DE8A804004DB72E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20F01DE71D74001ABF60 /* SWRevealViewController.m */; };
+		4BFC88FA1DE8A804004DB72E /* SlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B860AC71DE83F240031E23F /* SlideMenuViewController.m */; };
+		4BFC88FB1DE8A804004DB72E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F20B71DE6F495001ABF60 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +34,6 @@
 		4B7F20B71DE6F495001ABF60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B7F20B91DE6F495001ABF60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B7F20BA1DE6F495001ABF60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B7F20BC1DE6F495001ABF60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B7F20BD1DE6F495001ABF60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4B7F20C01DE6F495001ABF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B7F20C31DE6F495001ABF60 /* discounttravel_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = discounttravel_ios.xcdatamodel; sourceTree = "<group>"; };
 		4B7F20C51DE6F495001ABF60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,19 +47,27 @@
 		4B7F20D71DE6F8CF001ABF60 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		4B7F20DC1DE6F977001ABF60 /* ToursListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToursListViewController.h; sourceTree = "<group>"; };
 		4B7F20DD1DE6F977001ABF60 /* ToursListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToursListViewController.m; sourceTree = "<group>"; };
-		4B7F20E01DE718AC001ABF60 /* Country+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Country+CoreDataClass.h"; sourceTree = "<group>"; };
-		4B7F20E11DE718AC001ABF60 /* Country+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Country+CoreDataClass.m"; sourceTree = "<group>"; };
-		4B7F20E21DE718AC001ABF60 /* Country+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Country+CoreDataProperties.h"; sourceTree = "<group>"; };
-		4B7F20E31DE718AC001ABF60 /* Country+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Country+CoreDataProperties.m"; sourceTree = "<group>"; };
-		4B7F20E41DE718AC001ABF60 /* Tour+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tour+CoreDataClass.h"; sourceTree = "<group>"; };
-		4B7F20E51DE718AC001ABF60 /* Tour+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tour+CoreDataClass.m"; sourceTree = "<group>"; };
-		4B7F20E61DE718AC001ABF60 /* Tour+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tour+CoreDataProperties.h"; sourceTree = "<group>"; };
-		4B7F20E71DE718AC001ABF60 /* Tour+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tour+CoreDataProperties.m"; sourceTree = "<group>"; };
 		4B7F20ED1DE71BE6001ABF60 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4B7F20EF1DE71D74001ABF60 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		4B7F20F01DE71D74001ABF60 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		4B7F20F21DE7357F001ABF60 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4B7F20F31DE7357F001ABF60 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4B860AC61DE83F240031E23F /* SlideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuViewController.h; sourceTree = "<group>"; };
+		4B860AC71DE83F240031E23F /* SlideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuViewController.m; sourceTree = "<group>"; };
+		4B860ACA1DE846970031E23F /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		4B860ACB1DE846970031E23F /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		4B860AF91DE874BE0031E23F /* Version+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Version+CoreDataClass.h"; sourceTree = "<group>"; };
+		4B860AFA1DE874BE0031E23F /* Version+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Version+CoreDataClass.m"; sourceTree = "<group>"; };
+		4B860AFB1DE874BE0031E23F /* Version+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Version+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4B860AFC1DE874BE0031E23F /* Version+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Version+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4B860AFD1DE874BE0031E23F /* Tour+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tour+CoreDataClass.h"; sourceTree = "<group>"; };
+		4B860AFE1DE874BE0031E23F /* Tour+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tour+CoreDataClass.m"; sourceTree = "<group>"; };
+		4B860AFF1DE874BE0031E23F /* Tour+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tour+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4B860B001DE874BE0031E23F /* Tour+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tour+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4BFC88E51DE8A761004DB72E /* Category+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Category+CoreDataClass.h"; sourceTree = "<group>"; };
+		4BFC88E61DE8A761004DB72E /* Category+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Category+CoreDataClass.m"; sourceTree = "<group>"; };
+		4BFC88E71DE8A761004DB72E /* Category+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Category+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4BFC88E81DE8A761004DB72E /* Category+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Category+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,16 +102,11 @@
 		4B7F20B51DE6F495001ABF60 /* discounttravel_ios */ = {
 			isa = PBXGroup;
 			children = (
-				4B7F20F51DE7358B001ABF60 /* ViewControllers */,
 				4B7F20DF1DE71828001ABF60 /* DBdata */,
-				4B7F20D31DE6F768001ABF60 /* Reachability.h */,
-				4B7F20D41DE6F768001ABF60 /* Reachability.m */,
-				4B7F20B91DE6F495001ABF60 /* AppDelegate.h */,
-				4B7F20BA1DE6F495001ABF60 /* AppDelegate.m */,
-				4B7F20D61DE6F8CF001ABF60 /* NetworkManager.h */,
-				4B7F20D71DE6F8CF001ABF60 /* NetworkManager.m */,
-				4B7F20D01DE6F68B001ABF60 /* Model.h */,
-				4B7F20D11DE6F68B001ABF60 /* Model.m */,
+				4B860AD41DE866D00031E23F /* Model */,
+				4B860AD31DE866B20031E23F /* Network */,
+				4B860AC91DE8467D0031E23F /* Views */,
+				4B7F20F51DE7358B001ABF60 /* ViewControllers */,
 				4B7F20BF1DE6F495001ABF60 /* Main.storyboard */,
 				4B7F20C51DE6F495001ABF60 /* Assets.xcassets */,
 				4B7F20C71DE6F495001ABF60 /* LaunchScreen.storyboard */,
@@ -124,15 +127,19 @@
 		4B7F20DF1DE71828001ABF60 /* DBdata */ = {
 			isa = PBXGroup;
 			children = (
+				4BFC88E51DE8A761004DB72E /* Category+CoreDataClass.h */,
+				4BFC88E61DE8A761004DB72E /* Category+CoreDataClass.m */,
+				4BFC88E71DE8A761004DB72E /* Category+CoreDataProperties.h */,
+				4BFC88E81DE8A761004DB72E /* Category+CoreDataProperties.m */,
+				4B860AF91DE874BE0031E23F /* Version+CoreDataClass.h */,
+				4B860AFA1DE874BE0031E23F /* Version+CoreDataClass.m */,
+				4B860AFB1DE874BE0031E23F /* Version+CoreDataProperties.h */,
+				4B860AFC1DE874BE0031E23F /* Version+CoreDataProperties.m */,
+				4B860AFD1DE874BE0031E23F /* Tour+CoreDataClass.h */,
+				4B860AFE1DE874BE0031E23F /* Tour+CoreDataClass.m */,
+				4B860AFF1DE874BE0031E23F /* Tour+CoreDataProperties.h */,
+				4B860B001DE874BE0031E23F /* Tour+CoreDataProperties.m */,
 				4B7F20C21DE6F495001ABF60 /* discounttravel_ios.xcdatamodeld */,
-				4B7F20E01DE718AC001ABF60 /* Country+CoreDataClass.h */,
-				4B7F20E11DE718AC001ABF60 /* Country+CoreDataClass.m */,
-				4B7F20E21DE718AC001ABF60 /* Country+CoreDataProperties.h */,
-				4B7F20E31DE718AC001ABF60 /* Country+CoreDataProperties.m */,
-				4B7F20E41DE718AC001ABF60 /* Tour+CoreDataClass.h */,
-				4B7F20E51DE718AC001ABF60 /* Tour+CoreDataClass.m */,
-				4B7F20E61DE718AC001ABF60 /* Tour+CoreDataProperties.h */,
-				4B7F20E71DE718AC001ABF60 /* Tour+CoreDataProperties.m */,
 			);
 			name = DBdata;
 			sourceTree = "<group>";
@@ -152,12 +159,43 @@
 				4B7F20DD1DE6F977001ABF60 /* ToursListViewController.m */,
 				4B7F20F21DE7357F001ABF60 /* DetailViewController.h */,
 				4B7F20F31DE7357F001ABF60 /* DetailViewController.m */,
-				4B7F20BC1DE6F495001ABF60 /* ViewController.h */,
-				4B7F20BD1DE6F495001ABF60 /* ViewController.m */,
 				4B7F20EF1DE71D74001ABF60 /* SWRevealViewController.h */,
 				4B7F20F01DE71D74001ABF60 /* SWRevealViewController.m */,
+				4B860AC61DE83F240031E23F /* SlideMenuViewController.h */,
+				4B860AC71DE83F240031E23F /* SlideMenuViewController.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4B860AC91DE8467D0031E23F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B860ACA1DE846970031E23F /* GradientView.h */,
+				4B860ACB1DE846970031E23F /* GradientView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4B860AD31DE866B20031E23F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4B7F20D31DE6F768001ABF60 /* Reachability.h */,
+				4B7F20D41DE6F768001ABF60 /* Reachability.m */,
+				4B7F20D61DE6F8CF001ABF60 /* NetworkManager.h */,
+				4B7F20D71DE6F8CF001ABF60 /* NetworkManager.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		4B860AD41DE866D00031E23F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B7F20B91DE6F495001ABF60 /* AppDelegate.h */,
+				4B7F20BA1DE6F495001ABF60 /* AppDelegate.m */,
+				4B7F20D01DE6F68B001ABF60 /* Model.h */,
+				4B7F20D11DE6F68B001ABF60 /* Model.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,8 +205,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B7F20CD1DE6F495001ABF60 /* Build configuration list for PBXNativeTarget "discounttravel_ios" */;
 			buildPhases = (
-				4B7F20AF1DE6F495001ABF60 /* Sources */,
 				4B7F20B11DE6F495001ABF60 /* Resources */,
+				4B7F20AF1DE6F495001ABF60 /* Sources */,
 				4B7F20B01DE6F495001ABF60 /* Frameworks */,
 			);
 			buildRules = (
@@ -231,20 +269,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7F20F11DE71D74001ABF60 /* SWRevealViewController.m in Sources */,
-				4B7F20E91DE718AC001ABF60 /* Country+CoreDataProperties.m in Sources */,
-				4B7F20E81DE718AC001ABF60 /* Country+CoreDataClass.m in Sources */,
-				4B7F20C41DE6F495001ABF60 /* discounttravel_ios.xcdatamodeld in Sources */,
-				4B7F20DE1DE6F977001ABF60 /* ToursListViewController.m in Sources */,
-				4B7F20D81DE6F8CF001ABF60 /* NetworkManager.m in Sources */,
-				4B7F20EB1DE718AC001ABF60 /* Tour+CoreDataProperties.m in Sources */,
-				4B7F20EA1DE718AC001ABF60 /* Tour+CoreDataClass.m in Sources */,
-				4B7F20BE1DE6F495001ABF60 /* ViewController.m in Sources */,
-				4B7F20BB1DE6F495001ABF60 /* AppDelegate.m in Sources */,
-				4B7F20B81DE6F495001ABF60 /* main.m in Sources */,
-				4B7F20D51DE6F768001ABF60 /* Reachability.m in Sources */,
-				4B7F20D21DE6F68B001ABF60 /* Model.m in Sources */,
-				4B7F20F41DE7357F001ABF60 /* DetailViewController.m in Sources */,
+				4BFC88EC1DE8A804004DB72E /* Category+CoreDataClass.m in Sources */,
+				4BFC88ED1DE8A804004DB72E /* Category+CoreDataProperties.m in Sources */,
+				4BFC88EE1DE8A804004DB72E /* Version+CoreDataClass.m in Sources */,
+				4BFC88EF1DE8A804004DB72E /* Version+CoreDataProperties.m in Sources */,
+				4BFC88F01DE8A804004DB72E /* Tour+CoreDataClass.m in Sources */,
+				4BFC88F11DE8A804004DB72E /* Tour+CoreDataProperties.m in Sources */,
+				4BFC88F21DE8A804004DB72E /* AppDelegate.m in Sources */,
+				4BFC88F31DE8A804004DB72E /* Model.m in Sources */,
+				4BFC88F41DE8A804004DB72E /* Reachability.m in Sources */,
+				4BFC88F51DE8A804004DB72E /* NetworkManager.m in Sources */,
+				4BFC88F61DE8A804004DB72E /* GradientView.m in Sources */,
+				4BFC88F71DE8A804004DB72E /* ToursListViewController.m in Sources */,
+				4BFC88F81DE8A804004DB72E /* DetailViewController.m in Sources */,
+				4BFC88F91DE8A804004DB72E /* SWRevealViewController.m in Sources */,
+				4BFC88FA1DE8A804004DB72E /* SlideMenuViewController.m in Sources */,
+				4BFC88FB1DE8A804004DB72E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

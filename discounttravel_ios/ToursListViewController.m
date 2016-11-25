@@ -5,13 +5,14 @@
 //  Created by yuriy sych on 11/4/16.
 //  Copyright © 2016 yuriy sych. All rights reserved.
 //
-
+#import "Model.h"
+#import "Tour+CoreDataClass.h"
 #import "ToursListViewController.h"
 #import "SWRevealViewController.h"
 #import "AppDelegate.h"
 #import "NetworkManager.h"
 
-@interface ToursListViewController ()
+@interface ToursListViewController () <ModelDelegate>
 @property(nonatomic, retain)NSOperationQueue *imagesDownloadingOperationQueue;
 @property(nonatomic, retain)NSMutableDictionary *operationDictionary;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
@@ -87,7 +88,8 @@
 //    cell.imageView.image = [UIImage imageNamed:@"feed_placeholder"];
 //    cell.textLabel.text = item.title;
 //    cell.detailTextLabel.text = item.pub_date;
-    
+    Tour *currentTour = (Tour *) getAppDelegate().model.toursList[indexPath.row];
+    cell.textLabel.text = currentTour.title;
     return cell;
 }
 

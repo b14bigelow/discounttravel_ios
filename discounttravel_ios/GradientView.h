@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  GradientView.h
 //  discounttravel_ios
 //
-//  Created by yuriy sych on 11/24/16.
+//  Created by yuriy sych on 11/25/16.
 //  Copyright © 2016 yuriy sych. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface GradientView : UIView
 
 @end
-
